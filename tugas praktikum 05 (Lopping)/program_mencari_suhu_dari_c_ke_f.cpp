@@ -15,10 +15,12 @@ int main(int argc, char const *argv[])
     cout << "=========== Tabel Konversi Suhu ===========" << endl << endl;
     cout << "No" << "\t" "\t" << "Celcius" << "\t" "\t" << "Fahrenheit" << endl;
 
+    y = 1;
+
     for (int i = cAwal; i <= cAkhir; i++)
     {
         fhr = 1.8 * i + 34;
-        cout << i;
+        cout << y++;
         cout << "\t" "\t" << i << "\t" "\t" << fhr << endl;
     }    
     return 0;
