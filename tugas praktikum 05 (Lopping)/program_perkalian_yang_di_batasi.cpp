@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
     total = 1;
     for (int i = awal; i <= akhir; i++)
     {
-        cout << " x " << i;
+        cout << i << " x ";
         total = total * i;
     }
     

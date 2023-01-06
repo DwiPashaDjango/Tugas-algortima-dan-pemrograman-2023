@@ -23,8 +23,10 @@ int main(int argc, char const *argv[])
     hit = pulsa * 100;
 
     // output
+    cout << "=====================================" << endl;
     cout << "Biaya Langganan : " << member << endl;
     cout << "Biaya Pulsa : " << hit << endl;
+    cout << "=====================================" << endl;
     cout << "Total Pembayaran : " << member + hit << endl;
     return 0;
 }

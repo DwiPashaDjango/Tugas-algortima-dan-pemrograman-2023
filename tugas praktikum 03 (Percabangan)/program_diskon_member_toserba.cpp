@@ -15,15 +15,18 @@ int main(int argc, char const *argv[])
     if (total >= 50000 && status == "pelanggan")
     {
         dis = total * 20/100;
+        cout << "==========================="<< endl;
         cout << "Total Pembayaran : " << dis << endl;
     }
     else if (status == "pelanggan" && total <= 50000)
     {
         dis = total * 10/100;
+        cout << "==========================="<< endl;
         cout << "Total Pembayaran : " << dis << endl;
     }
     else
     {
+        cout << "==========================="<< endl;
         cout << "Total Pembayaran : " << total;
     }
     

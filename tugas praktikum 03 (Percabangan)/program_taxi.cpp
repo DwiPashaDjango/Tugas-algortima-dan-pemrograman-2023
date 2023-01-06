@@ -18,6 +18,7 @@ int main(int argc, char const *argv[])
         bayar = 7500;
     }
     
+    cout << "===========================" << endl;
     cout << "Yang Harus Di Bayar : " << bayar;
 
     return 0;
