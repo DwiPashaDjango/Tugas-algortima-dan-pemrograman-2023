@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
 
     for (i = 1; i <= 8; i++)
     {
-        cout << (i * 2 - 1);
+        cout << (i * 2 - 1) << "\n";
     }
     cout << "\n";
     return 0;

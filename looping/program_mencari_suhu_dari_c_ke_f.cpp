@@ -12,17 +12,14 @@ int main(int argc, char const *argv[])
     cout << "Masukan Nilai Celcius Akhir : ";
     cin >> cAkhir;
 
-    cout << "================ Tabel Konversi Suhu ================" << endl << endl;
-    cout << "No                 " << "Celcius               " << "Fahrenheit" << endl;
+    cout << "=========== Tabel Konversi Suhu ===========" << endl << endl;
+    cout << "No" << "\t" "\t" << "Celcius" << "\t" "\t" << "Fahrenheit" << endl;
 
-    for (y = 1; y <= cAkhir; y++)
+    for (int i = cAwal; i <= cAkhir; i++)
     {
-        cout << y << endl;
-        for (i = cAwal; i <= cAkhir; i++)
-        {
-            fhr = 1.8 * i + 34;
-            cout << "                    " << i << "                    " << fhr << endl;
-        }
-    }
+        fhr = 1.8 * i + 34;
+        cout << i;
+        cout << "\t" "\t" << i << "\t" "\t" << fhr << endl;
+    }    
     return 0;
 }

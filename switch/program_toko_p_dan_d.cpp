@@ -10,13 +10,13 @@ int main(int argc, char const *argv[])
 
     cout << "====================== Toko P & D ========================" << endl << endl;
     cout << "==================== Barang Yang Di Jual =================" << endl;
-    cout << "No   " << "Merk           " << "Besar            " << "Sedang          " << "Kecil " << endl;
-    cout << "1    " << "Dancow         " << "100000           " << "42500           " << "21000 " << endl;
-    cout << "2    " << "Indomilk       " << "85000            " << "40000           " << "20250 " << endl;
-    cout << "3    " << "Milo           " << "77500            " << "37500           " << "22000 " << endl;
-    cout << "4    " << "Suprima        " << "96000            " << "51000           " << "26000 " << endl;
-    cout << "5    " << "Sustagen       " << "170000           " << "145000          " << "83000 " << endl;
-    cout << "6    " << "Ovaltine       " << "112000           " << "65000           " << "32500 " << endl << endl;
+    cout << "No" << "\t" << "Merk    " << "\t" << "Besar     " << "\t" << "Sedang" << "\t" << "Kecil " << endl;
+    cout << "1 " << "\t" << "Dancow  " << "\t" << "100000    " << "\t" << "42500 " << "\t" << "21000 " << endl;
+    cout << "2 " << "\t" << "Indomilk" << "\t" << "85000     " << "\t" << "40000 " << "\t" << "20250 " << endl;
+    cout << "3 " << "\t" << "Milo    " << "\t" << "77500     " << "\t" << "37500 " << "\t" << "22000 " << endl;
+    cout << "4 " << "\t" << "Suprima " << "\t" << "96000     " << "\t" << "51000 " << "\t" << "26000 " << endl;
+    cout << "5 " << "\t" << "Sustagen" << "\t" << "170000    " << "\t" << "145000" << "\t" << "83000 " << endl;
+    cout << "6 " << "\t" << "Ovaltine" << "\t" << "112000    " << "\t" << "65000 " << "\t" << "32500 " << endl << endl;
 
     cout << "Masukan No Barang : ";
     cin >> pil;
