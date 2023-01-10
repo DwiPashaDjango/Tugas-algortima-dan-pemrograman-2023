@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
@@ -15,15 +16,15 @@ int main(int argc, char const *argv[])
     cout << "Masukan Nilai ke 3 : ";
     cin >> c;
 
-    d = (b*b) - (4*a*c);
+    d = (b*b) - (4*a*c); 
 
     if (d > 0)
     {
         cout << "===================================" << endl;
         cout << "Ada Dua Akar" << endl;
         cout << "===================================" << endl;
-        i = (-b + d) / (2 * a);
-        y = (-b - d) / (2 * a);
+        i = (-b + sqrt(d)) / (2 * a);
+        y = (-b - sqrt(d)) / (2 * a);
 
         cout << "Akar 1 = " << i << endl;
         cout << "Akar 2 = " << y << endl;
@@ -34,7 +35,7 @@ int main(int argc, char const *argv[])
         cout << "===================================" << endl;
         cout << "Ada Satu Akar" << endl;
         cout << "===================================" << endl;
-        i = y = (-b + d) / (2 * a);
+        i = y = (-b + sqrt(d)) / (2 * a);
         cout << "Akar = " << i << endl;
         cout << "===================================" << endl;
     }
