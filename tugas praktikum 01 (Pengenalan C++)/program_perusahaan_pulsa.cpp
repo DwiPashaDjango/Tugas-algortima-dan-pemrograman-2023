@@ -7,7 +7,7 @@ int main(int argc, char const *argv[])
     // deklaraasi variable
     int member = 3000, no_hp;
     int hit, total, pulsa;
-    string nama, alamat;
+    char nama[255], alamat;
 
     // input data
     cout << "Masukan Nomor : ";
