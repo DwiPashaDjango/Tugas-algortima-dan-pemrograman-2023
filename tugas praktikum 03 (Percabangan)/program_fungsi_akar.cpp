@@ -17,27 +17,32 @@ int main(int argc, char const *argv[])
 
     d = (b*b) - (4*a*c);
 
-    if (a > 0)
+    if (d > 0)
     {
+        cout << "===================================" << endl;
         cout << "Ada Dua Akar" << endl;
         cout << "===================================" << endl;
         i = (-b + d) / (2 * a);
         y = (-b - d) / (2 * a);
 
-        cout << "Akar = " << i << endl;
-        cout << "Akar = " << y << endl;
+        cout << "Akar 1 = " << i << endl;
+        cout << "Akar 2 = " << y << endl;
+        cout << "===================================" << endl;
     }
-    else if (a == 0)
+    else if (d == 0)
     {
+        cout << "===================================" << endl;
         cout << "Ada Satu Akar" << endl;
         cout << "===================================" << endl;
         i = y = (-b + d) / (2 * a);
         cout << "Akar = " << i << endl;
-        cout << "Akar = " << y << endl;
+        cout << "===================================" << endl;
     }
     else
     {
-        cout << "Tidak Ada Akar << endl";
+        cout << "===================================" << endl;
+        cout << "Tidak Ada Akar" << endl;
+        cout << "===================================" << endl;
     }
 
     return 0;
