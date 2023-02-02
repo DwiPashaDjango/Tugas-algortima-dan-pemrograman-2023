@@ -2,10 +2,10 @@
 
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main()
 {
-    double hj = 6000, bt = 50000, bb = 3500;
-    double lr;
+    float hj = 6000, bt = 50000, bb = 3500;
+    float lr;
     int n[4] = {5, 10, 15, 20}; 
 
     // proses
@@ -14,12 +14,12 @@ int main(int argc, char const *argv[])
     cout << "Jumlah Produksi" << "\t" "\t" << "Jumlah R/L" << "\t" "\t" <<  "Keterangan" << endl;
     for (int i = 0; i < 4; i++)
     {
-        lr = hj * n[i] - (bt + bb);
-        if (lr >= bt)
+        lr = (hj * n[i]) - (bt + bb);
+        if (lr >= hj)
         {
             cout << n[i] << "\t" "\t" "\t" << lr << "\t" "\t" "\t" << "Laba" << endl;
         }
-        else if (lr >= hj)
+        else if (lr >= bt)
         {
             cout << n[i] << "\t" "\t" "\t" << lr << "\t" "\t" "\t" << "Impas" << endl;
         }
