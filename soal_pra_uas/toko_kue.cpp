@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int kd_kue, jum_kue, harga, dis, tot_har
+    int kd_kue, jum_kue, harga, dis, tot_har;
     double tot_bar;
     char nama[50];
     string nm_kue;
