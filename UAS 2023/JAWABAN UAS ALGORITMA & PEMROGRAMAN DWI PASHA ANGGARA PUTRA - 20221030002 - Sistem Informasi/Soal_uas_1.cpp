@@ -7,9 +7,9 @@ int main()
     int dis, qty, kd_merk, tot_har, h_satuan, hb;
     char jb, kd_jenis;
 
-    cout << "Masukan kode Jenis Barang : ";
+    cout << "Masukan kode Jenis Barang [A/B/C] : ";
     cin >> kd_jenis;
-    cout << "Masukan kode Merk Barang : ";
+    cout << "Masukan kode Merk Barang [1/2/3] : ";
     cin >> kd_merk;
     cout << "Masukan Jumlah Barang : ";
     cin >> qty;
@@ -63,6 +63,7 @@ int main()
             break;
         
         default:
+            cout << "Tidak Ada Diskon" << "\n";
             break;
         }
         // end switch diskon
@@ -116,6 +117,7 @@ int main()
             break;
         
         default:
+            cout << "Tidak Ada Diskon" << "\n";
             break;
         }
         // end switch diskon
@@ -169,6 +171,7 @@ int main()
             break;
         
         default:
+            cout << "Tidak Ada Diskon" << "\n";
             break;
         }
         // end switch diskon
@@ -177,6 +180,7 @@ int main()
         cout << "Harga Bersih   : " << hb << "\n";
         break;
     default:
+        cout << "Kode Jenis Barang Tidak Di Temukan !" << "\n";
         break;
     }
 
